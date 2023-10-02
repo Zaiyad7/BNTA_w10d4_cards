@@ -1,0 +1,71 @@
+/* CardGame Container */
+.card-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://assets.codepen.io/74045/green.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* Adjust the height as needed */
+    padding: 20px;
+  }
+  
+  /* Card Area Styles */
+  .cardArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+  }
+  
+  .cardArea h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  .cardArea img {
+    max-width: 18%;
+    margin: 5px;
+  }
+  
+  /* Status Styles */
+  #status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+  
+  #status p {
+    margin: 5px;
+  }
+  
+  /* Buttons */
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc; /* Disabled button background color */
+    cursor: not-allowed;
+  }
+  
+
+  
